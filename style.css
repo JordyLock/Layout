@@ -11,14 +11,14 @@ a:link{
 	background-color: transparent;
 }
 a:hover {
-color: white;
+color: aqua;
 background-color: transparent;
 }
 
 div a {
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	padding: 10px;
 	border-top: 2px solid aqua;
 	border-right: 2px solid aqua;
@@ -28,4 +28,36 @@ div a {
 }
 h1 {
 text-align: center;
+}
+div.links{
+
+text-align: center;
+
+}
+
+a.hoofdmenu {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border-top: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	border-left:2px solid transparent;
+
+}
+
+div.hoofdpagina{
+	color: white;
+	margin-top: 100px;
+	border-top: 2px solid transparent;
+	border-right: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	border-left:2px solid transparent;
+	margin-left:490px;
+	width:800px;
+	font-size: 18pt;
+
+
+
 }
