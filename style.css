@@ -49,14 +49,22 @@ a.hoofdmenu {
 
 div.hoofdpagina{
 	color: white;
-	margin-top: 100px;
+	padding-top: 50px;
+	margin: auto;
 	border-top: 2px solid transparent;
 	border-right: 2px solid transparent;
 	border-bottom: 2px solid transparent;
 	border-left:2px solid transparent;
-	margin-left:490px;
-	width:800px;
-	font-size: 18pt;
+	width:920px;
+	font-size: 16pt;
+}
+
+img.ac {
+width: 400px;
+float: right;
+margin-left: 20px;
+margin-bottom: 20px;
+
 
 
 
