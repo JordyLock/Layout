@@ -26,9 +26,6 @@ div a {
 	border-left:2px solid aqua;
 	color: white;
 }
-h1 {
-text-align: center;
-}
 div.links{
 
 text-align: center;
@@ -64,8 +61,19 @@ width: 400px;
 float: right;
 margin-left: 20px;
 margin-bottom: 20px;
+}
+
+div.filmpje{
+
+float: left;
+margin-right: 20px;
 
 
-
-
+}
+img.windows {
+width: 500px;
+float: right;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
 }
