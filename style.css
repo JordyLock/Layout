@@ -1,9 +1,9 @@
 
 body {
 
-background-color: black;
+background-color: white;
 color: white;	
-
+font-family: sans-serif;
 }
 
 a:link{
@@ -25,9 +25,12 @@ div a {
 	border-bottom: 2px solid aqua;
 	border-left:2px solid aqua;
 	color: white;
+	background-color: black;
 }
 div.links{
-
+background-color: black;
+margin: auto;
+width: 973px;
 text-align: center;
 
 }
@@ -36,12 +39,12 @@ a.hoofdmenu {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-	padding: 10px;
 	border-top: 2px solid transparent;
 	border-right: 2px solid transparent;
 	border-bottom: 2px solid transparent;
 	border-left:2px solid transparent;
-
+	background-color: black;
+	margin: auto;
 }
 
 div.hoofdpagina{
@@ -54,26 +57,49 @@ div.hoofdpagina{
 	border-left:2px solid transparent;
 	width:920px;
 	font-size: 16pt;
+	background-color: black;
+	padding: 25px;
 }
 
 img.ac {
-width: 400px;
-float: right;
-margin-left: 20px;
-margin-bottom: 20px;
+	width: 400px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 div.filmpje{
 
-float: left;
-margin-right: 20px;
+	float: left;
+	margin-right: 20px;
 
 
 }
 img.windows {
-width: 500px;
-float: right;
-margin-left: 20px;
-margin-bottom: 20px;
-margin-top: 20px;
+	width: 500px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+div.ps-filmpje{
+
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+
+
+}
+img.ubisoft {
+	width: 300px;
+	float: left;
+	margin-right:25px;
+	margin-bottom: 20px;
+}
+
+iframe{
+width: 400px;
+height: 400px;
+
+
 }
