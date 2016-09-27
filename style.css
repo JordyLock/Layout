@@ -1,7 +1,7 @@
 
 body {
 
-background-color: white;
+background-color: silver;
 color: white;	
 font-family: sans-serif;
 }
@@ -102,4 +102,15 @@ width: 400px;
 height: 400px;
 
 
+}
+img.windows1 {
+	width: 500px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+iframe.ac{
+float: right;
 }
