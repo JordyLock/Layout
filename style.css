@@ -1,3 +1,12 @@
+* {
+padding: 0;
+margin: 0;
+
+
+
+}
+
+
 
 body {
 
@@ -15,47 +24,29 @@ color: aqua;
 background-color: transparent;
 }
 
-div a {
-	text-decoration: none;
-	color: white;
-	font-size: 25px;
-	padding: 10px;
-	border-top: 2px solid aqua;
-	border-right: 2px solid aqua;
-	border-bottom: 2px solid aqua;
-	border-left:2px solid aqua;
-	color: white;
-	background-color: black;
-}
-div.links{
-background-color: black;
-margin: auto;
-width: 973px;
-text-align: center;
-
-}
 
 a.hoofdmenu {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-	border-top: 2px solid transparent;
-	border-right: 2px solid transparent;
-	border-bottom: 2px solid transparent;
-	border-left:2px solid transparent;
+	border-top: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left:0px solid transparent;
 	background-color: black;
 	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 div.hoofdpagina{
 	color: white;
-	padding-top: 50px;
 	margin: auto;
-	border-top: 2px solid transparent;
-	border-right: 2px solid transparent;
-	border-bottom: 2px solid transparent;
-	border-left:2px solid transparent;
-	width:920px;
+	border-top: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 0px solid transparent;
+	width:65%;
 	font-size: 16pt;
 	background-color: black;
 	padding: 25px;
@@ -113,4 +104,58 @@ img.windows1 {
 
 iframe.ac{
 float: right;
+}
+
+img.advert{
+
+	float: left;
+	height: 800px;
+	width:200px;
+	padding-left: 5%;
+
+
+}
+
+ul.links {
+
+list-style-type: none;
+background-color: black;
+
+
+}
+
+li {
+display: inline-block;
+
+}
+
+a.menuitem{
+	text-decoration: none;
+	color: white;	
+	border-right: 2px solid aqua;
+	border-left:2px solid aqua;
+	color: white;
+	background-color: black;
+}
+	
+div.links{
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	padding: 25px;
+
+}
+
+div a{
+padding: 10px;
+text-align: center;
+background-color: black;
+font-size: 175%;
+margin: auto;
+
+}
+ @viewport {
+width: 1920px;
+ zoom: .10;
 }
