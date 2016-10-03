@@ -50,6 +50,7 @@ div.hoofdpagina{
 	font-size: 16pt;
 	background-color: black;
 	padding: 25px;
+	font-size: 135%;
 }
 
 img.ac {
@@ -73,11 +74,12 @@ img.windows {
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-div.ps-filmpje{
-
-	float: right;
-	margin-left: 20px;
-	margin-top: 20px;
+img.ps4{
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+	width:300px;
+	height: 250px;
 
 
 }
@@ -106,13 +108,21 @@ iframe.ac{
 float: right;
 }
 
-img.advert{
+img.advert1{
 
 	float: left;
 	height: 800px;
 	width:200px;
 	padding-left: 5%;
 
+
+}
+
+img.advert2{
+	float: right;
+	height: 800px;
+	width: 200px;
+	padding-right: 5%;
 
 }
 
@@ -158,4 +168,21 @@ margin: auto;
  @viewport {
 width: 1920px;
  zoom: .10;
+}
+
+
+img.g2a{
+width: 650px;
+height: 200px;
+padding-left: 600px;
+padding-right: 600px;
+padding-top: 10px;
+
+}
+a.lees{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	padding: 25px;
+	font-size: 175%;
 }
