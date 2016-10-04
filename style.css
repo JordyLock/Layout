@@ -186,3 +186,12 @@ a.lees{
 	padding: 25px;
 	font-size: 175%;
 }
+
+a.lees {
+   font-size: 115%;
+   color: gray;
+   padding: 6px;
+
+
+
+}
