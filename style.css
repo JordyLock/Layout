@@ -54,21 +54,14 @@ div.hoofdpagina{
 }
 
 img.ac {
-	width: 400px;
+	width: 50%;
 	float: right;
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
 
-div.filmpje{
-
-	float: left;
-	margin-right: 20px;
-
-
-}
 img.windows {
-	width: 500px;
+	width: 50%;
 	float: right;
 	margin-left: 20px;
 	margin-bottom: 20px;
@@ -90,12 +83,7 @@ img.ubisoft {
 	margin-bottom: 20px;
 }
 
-iframe{
-width: 400px;
-height: 400px;
 
-
-}
 img.windows1 {
 	width: 500px;
 	float: left;
@@ -104,26 +92,30 @@ img.windows1 {
 	margin-top: 20px;
 }
 
-iframe.ac{
-float: right;
-}
 
 img.advert1{
 
 	float: left;
-	height: 800px;
-	width:200px;
+	width: 10%;
 	padding-left: 5%;
+	padding-top: 5%;
 
 
 }
 
 img.advert2{
 	float: right;
-	height: 800px;
-	width: 200px;
+	width: 10%;
 	padding-right: 5%;
+	padding-top: 5%;
 
+}
+
+img.ac {
+	width: 40%;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 ul.links {
@@ -136,6 +128,7 @@ background-color: black;
 
 li {
 display: inline-block;
+padding-top: 15px;
 
 }
 
@@ -165,18 +158,13 @@ font-size: 175%;
 margin: auto;
 
 }
- @viewport {
-width: 1920px;
- zoom: .10;
-}
 
 
 img.g2a{
-width: 650px;
-height: 200px;
-padding-left: 600px;
-padding-right: 600px;
-padding-top: 10px;
+width: 25%;
+padding-left: 36%;
+padding-right:36%;
+padding-top: 5%;
 
 }
 a.lees{
